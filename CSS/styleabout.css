@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(227, 204, 184);
+}
+    
+
+a{
+    text-decoration: none;
+}
+
+.block-verx{
+    border: solid 5px #897665;
+    background: url(../img/тфон.jpg);
+    background-size: 100%;
+       
+    border-bottom: 0;
+}
+.box{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    
+    
+    padding: 3px;
+    
+}
+
+
+
+.links{
+    text-align: center;
+    border: solid 5px #897665;
+    background: url(../img/тфон.jpg);
+    background-size: 100%;
+    
+    border-top: 0;
+    padding: 10px;
+}
+
+.links a{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #c5843f;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    background: #890000;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+
+.dev{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+    border: 4px solid rgb(247, 3, 3);
+    background-color: #070400;
+    padding: 5px;
+    
+}
+
+.dev1{
+    margin-top: 50px;
+    margin-left: 550px;
+    border: 5px solid rgb(245, 107, 130);
+}
