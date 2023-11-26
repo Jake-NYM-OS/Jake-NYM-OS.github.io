@@ -16,7 +16,7 @@ a{
     border: solid 5px #897665;
     background: url(../img/тфон.jpg);
     background-size: 100%;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;   
+       
     border-bottom: 0;
 }
 .box{
@@ -30,18 +30,20 @@ a{
     
 }
 
+
+
 .links{
     text-align: center;
     border: solid 5px #897665;
     background: url(../img/тфон.jpg);
     background-size: 100%;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; 
+    
     border-top: 0;
     padding: 10px;
 }
 
 .links a{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid black;
     margin: 2px;
     padding: 5px;
     border-radius: 10px;
