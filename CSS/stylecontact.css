@@ -62,19 +62,4 @@ a{
 
 
 
-.block-top-one{
-    border: 0.313em solid;
-    width: 100%;
-    max-width: 1280px;
-    height: 18.75rem; /* Зависит от контента */
-    margin: auto;
-}
 
-.block-top-two{
-    text-align: center;
-    color: white;
-    border: 0.188em dashed black;
-    padding: 0.313em;
-    border-radius: 0.625rem;
-    margin: 0.625rem;
-}
