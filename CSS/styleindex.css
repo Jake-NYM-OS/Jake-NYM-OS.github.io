@@ -16,7 +16,7 @@ a{
     border: solid 5px #897665;
     background: url(../img/тфон.jpg);
     background-size: 100%;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;   
+       
     border-bottom: 0;
 }
 .box{
