@@ -1,48 +1,52 @@
-css
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(227, 204, 184);
 }
+    
+
+a{
+    text-decoration: none;
+}
 
 .block-verx{
-    border: 0.31em solid #897665;
+    border: solid 5px #897665;
     background: url(../img/тфон.jpg);
-    background-size: cover;
-    border-radius: 10rem;
-    margin: 1rem;
+    background-size: 100%;
+       
+    border-bottom: 0;
 }
-
 .box{
-    display: inline-block;
-    vertical-align: top;
-    color: #f0f0f0;
-    margin: 0.625rem;
-    border: 0.188em dashed black;
-    background-color: rgb(189, 138, 19);
-    padding: 0.188em;
-    border-radius: 0.625rem;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    
+    
+    padding: 3px;
+    
 }
 
-.box:hover{
-    background: #890000;
-    transition: all 0.3s ease;
-}
+
 
 .links{
-    float: right;
-    padding-top: 1rem;
+    text-align: center;
+    border: solid 5px #897665;
+    background: url(../img/тфон.jpg);
+    background-size: 100%;
+    
+    border-top: 0;
+    padding: 10px;
 }
 
 .links a{
-    border: 0.125em solid black;
-    margin: 0.125rem;
-    padding: 0.313em;
-    border-radius: 0.625rem;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
     background-color: #c5843f;
     text-decoration: none;
     color: white;
@@ -50,8 +54,13 @@ body {
 
 .links a:hover{
     background: #890000;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
 }
+
+
 
 .block-top-one{
     border: 0.313em solid;
