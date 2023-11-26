@@ -7,9 +7,7 @@ body {
     background-color: rgb(227, 204, 184);
 }
     
-@media screen and (max-width: 1280px) { div.block-verx {width: 1200px;} }
-@media screen and (max-width: 1140px) { div.box {width: 1024px;} }
-@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+
 
 
 .block-verx{
