@@ -31,7 +31,6 @@ a{
 }
 
 
-
 .links{
     text-align: center;
     border: solid 5px #897665;
@@ -61,17 +60,48 @@ a{
 }
 
 .contact{
-    border: 3px solid #897665;
+    border: 5px solid #897665;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin-top: 30px;
-    
     font-size: smaller;
-    width: max-content;
+    width:max-content;
+    background: url(../img/тфон.jpg);
+    color: whitesmoke;
+}
+
+.number{
+    padding: 3px;
+    border: 2px solid black;
+    background-color: rgb(255, 72, 0);
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+}
+
+.telegram{
+    background-color: #34AADF;
+    border: 3px solid #34AADF;
+    border-radius: 10px;
+    width: 150px;
     
     
 }
+.telegram a{
+    text-decoration: none;
+    color: aliceblue;
 
+}
+
+
+.telegram:hover{
+    border: 2px solid black;
+     background-color: #0076ac;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
