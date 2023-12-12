@@ -60,21 +60,95 @@ a{
     transition: all 0.3s ease;
 }
 
+/* --------------------------------- */
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-.dev{
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
+.profile{
+    animation: glitch 1s linear infinite;
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  .profile:before,
+  .profile:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+  
+  .profile:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg); 
+    }
+  }
+  
+  .profile:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+
+  .profile{
+    border: 5px solid #897665;
+    width: 250px;
+    background-color: #897665;
     text-align: center;
-    margin-top: 30px;
-    border: 4px solid rgb(247, 3, 3);
-    background-color: #070400;
-    padding: 5px;
+    margin-left: 10px;
+
     
+  }
+  .profile span{
+    color: aliceblue;
+    border: #897665;
+    
+  }
+
+
+  .profile span:hover {
+    animation: myfirst 2s 1;
+}
+@keyframes myfirst
+{
+    0%      {background:rgb(85, 255, 0)(9, 255, 0);}
+    25%     {background:green;}
+    75%     {background:rgb(174, 174, 0);}
+    100%    {background:rgb(15, 87, 18)(0, 255, 13);}
 }
 
-.dev1{
-    margin-top: 50px;
-    
-    border: 5px solid rgb(245, 107, 130);
-}
+
+/* ------------------------ */
