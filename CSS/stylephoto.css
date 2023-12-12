@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(227, 204, 184);
+}
+    
+
+a{
+    text-decoration: none;
+}
+
+.block-verx{
+    border: solid 5px #897665;
+    background: url(../img/тфон.jpg);
+    background-size: 100%;
+       
+    border-bottom: 0;
+}
+.box{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    
+    
+    padding: 3px;
+    
+}
+
+
+
+.links{
+    text-align: center;
+    border: solid 5px #897665;
+    background: url(../img/тфон.jpg);
+    background-size: 100%;
+    
+    border-top: 0;
+    padding: 10px;
+}
+
+.links a{
+    border: 2px solid black;
+    
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #c5843f;
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    background: #890000;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+
+.tex1{
+    border: 5px solid black;
+    color: white;
+    background-color: #c39b78;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tex1 h1{
+    color: rgb(188, 2, 2);
+    
+}
+.tex2{
+    padding-top: 10px;
+    background-color: #c39b78;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.tex2 span{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tex2 button{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c5843f;
+    color: white;
+    
+}
+
+.tex2 button:hover{
+    cursor: pointer;
+    background: #890000;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
