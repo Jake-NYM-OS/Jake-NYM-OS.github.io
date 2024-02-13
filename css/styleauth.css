@@ -1,0 +1,20 @@
+body{
+    background-color: #f5f5dc;
+}
+
+.window{
+    border: 3px solid red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.window button{
+    width: 100px;
+    height: 25px;
+    
+}
+
+.zgl{
+    text-align: center;
+}

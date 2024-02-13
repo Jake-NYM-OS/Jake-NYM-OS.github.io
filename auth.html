@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styleauth.css">
+  <title>Стой!</title>
+</head>
+<body>
+  <div class="zgl">
+  <h1>Стоять!) Введи пароль;)</h1>
+  </div>
+  <div class="window">
+  <form action="" method="post">
+    <label for="password">Паролик:</label>
+    <br>
+    <input type="password" id="password" name="password"><br><br>
+    <button type="submit">Принять♥</button><br>
+  </form>
+  </div>
+  <script>
+    document.forms[0].addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      var password = document.getElementById("password").value;
+      if (password === "Юля10.06.2008") {
+        window.location.href = "14febrary.html";
+      } else {
+        alert("Неправильный пароль!)");
+      }  
+    });
+  </script>  
+</body>
+</html>
