@@ -61,48 +61,20 @@ a{
 }
 
 
-.tex1{
-    border: 5px solid black;
-    color: white;
-    background-color: #c39b78;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.tex1 h1{
-    color: rgb(188, 2, 2);
-    
-}
-.tex2{
-    padding-top: 10px;
-    background-color: #c39b78;
-    border-radius: 10px;
-    padding-bottom: 15px;
-}
-
-.tex2 span{
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.tex2 button{
+.photo1{
+    display: inline-block;
+    font-size: large;
+    color: aliceblue;
     border: 3px solid black;
     border-radius: 10px;
-    width: 150px;
-    height: 30px;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
     background-color: #c5843f;
-    color: white;
-    
 }
 
-.tex2 button:hover{
-    cursor: pointer;
-    background: #890000;
-    -webkit-transition: all 0.3s ease;;
-    -moz-transition: all 0.3s ease;;
-    -o-transition: all 0.3s ease;;
-    transition: all 0.3s ease;
+img{
+    border: 5px solid #c5843f;
+    border-radius: 10px;
+    background-color: #897665;
+    padding: 5px;
+    margin: 5px;
 }
