@@ -121,8 +121,8 @@ a{
 
 
 .tex1{
-    display: inline-block;
     border: 5px solid black;
+    width: 300px;
     color: white;
     background-color: #c39b78;
     text-align: center;
