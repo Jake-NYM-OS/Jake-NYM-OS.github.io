@@ -59,3 +59,54 @@ a{
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
 }
+
+.zagolovok{
+    margin-left:10px ;
+    width: 147px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #000000;
+    border: 5px solid #897665;
+    background: url(../img/тфон.jpg);
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.body_block{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 5px solid #897665;
+    padding: 10px;
+    background: url(../img/тфон.jpg);
+    color: #ffffff;
+    text-align: center;
+}
+
+.block_two{
+    margin-left: 10px;
+    border: 5px solid #897665;
+    padding: 10px;
+    display: inline-block;
+    background:url(../img/тфон.jpg) ;
+    color: white;
+    
+}
+
+.block_two ul{
+    list-style-type: none;
+    
+    
+    
+    
+}
+
+.block_two li::before{
+    color: rgb(50, 239, 245);
+    content: "♡";
+    padding: 5px;
+}
+
+.block_two li{
+    
+}
