@@ -60,6 +60,7 @@ a{
 }
 
 .contact{
+    margin-left: 20px;
     border: 5px solid #897665;
     border-radius: 10px;
     padding: 5px;
@@ -115,19 +116,23 @@ a{
 
 
 
-
+#vk_contact_us{
+    
+    text-align: center;
+}
 
 
 
 
 .tex1{
-    border: 5px solid black;
+    border: 5px solid #897665;
     width: 300px;
     color: white;
     background-color: #c39b78;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    margin-left: 20px;
 }
 
 #banq{
@@ -166,4 +171,12 @@ a{
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
+}
+
+.inkognito{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #c5843f;
+    
 }
