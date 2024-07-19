@@ -7,9 +7,7 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background: no-repeat; 
-    background: url(Frame\ 1.jpg);
-    background-size: cover;
+    background-color: #f9f9f9;
    
     border-radius: 10px;
     border: 3px solid #000000;
