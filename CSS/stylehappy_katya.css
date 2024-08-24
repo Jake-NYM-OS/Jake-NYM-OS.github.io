@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0d09; /*f9f9f9*/
+    text-align: center;
+}
+.card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+   
+    border-radius: 10px;
+    border: 4px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #000000;
+}
+.signature {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.card img{
+    width: 300px;
+    background-color: #000000;
+    border-radius: 10px;
+    
+}
