@@ -27,3 +27,16 @@ h2 {
     border-radius: 10px;
     
 }
+
+input{
+    width: 175px;
+    height: 25px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(83, 83, 251), pink);
+    color: white;
+}
